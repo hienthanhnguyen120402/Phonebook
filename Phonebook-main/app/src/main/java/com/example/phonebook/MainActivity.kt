@@ -26,20 +26,10 @@ class MainActivity : AppCompatActivity() {
 
 
         val items = arrayListOf<ItemModel>()
-        repeat(5) {
+        repeat(15) {
             items.add(
                 ItemModel(
-                    resources.getIdentifier("img", "drawable", packageName), "Thanh Hien"
-                )
-            )
-            items.add(
-                ItemModel(
-                    resources.getIdentifier("img1", "drawable", packageName), "John"
-                )
-            )
-            items.add(
-                ItemModel(
-                    resources.getIdentifier("img2", "drawable", packageName), "Maddison Russel"
+                    resources.getIdentifier("img", "drawable", packageName), "Hồng Hạnh VN03"
                 )
             )
         }
